@@ -1,94 +1,96 @@
-# ChallengeAppleAcademy
-Desafio Apple academy para criar um sistema de RPG 
+Desafio Apple Developer Academy - Academia de Magia - RPG em Swift
+Bem-vindo ao meu pequeno mundo mágico criado inteiramente no console usando Swift!
+Este projeto foi desenvolvido para o processo seletivo da Apple Developer Academy | SENAC, seguindo a regra de utilizar apenas conceitos iniciais da linguagem.
+A ideia aqui foi transformar fundamentos simples em algo interativo e divertido — e daí nasceu este mini RPG de magos.
 
-🧙‍♂️ Visão Geral
+# ✨ Sobre o Projeto
+Você controla um mago que começa sua jornada como Aprendiz e evolui através de batalhas contra inimigos cada vez mais fortes.
+Durante a aventura, você pode:
+🧙‍♂️ Escolher o nome do seu mago
+📈 Subir de rank vencendo batalhas
+🔓 Desbloquear novas magias
+💥 Fazer combos entre habilidades
+🐉 Enfrentar inimigos únicos que evoluem com você
+⭐ Encarar o chefe final quando alcançar o título de Mestre dos Magos
+Tudo acontece direto no console utilizando readLine() para interação.
 
-Este é um mini-RPG em Swift onde você cria seu próprio mago, escolhe um rank, compra magias e enfrenta uma batalha para testar sua build.
+---
 
+## 🧙 Evolução do Mago
+A progressão é um dos pontos principais do jogo. Seus ranks são:
+Aprendiz de Mago
+Mago Iniciante
+Feiticeiro
+Feiticeiro Experiente
+Mestre dos Magos ⭐ (final do jogo)
+Cada vitória aumenta seu rank, vida, mana e desbloqueia novas magias exclusivas.
 
-🪄 Recursos do Jogo
+---
 
-✔ Sistema de criação de personagem
-✔ Sistema de ranks
-✔ Pontos para comprar magias
-✔ Magias liberadas conforme o rank
-✔ Cenário narrativo
-✔ Batalha final contra um Goblin Arcano
-✔ Combate simples (turnos, dano, derrota e vitória)
+## 🔥 Sistema de Magias e Combos
+As magias são liberadas conforme você avança.
+O sistema de combos torna as batalhas mais estratégicas:
+Você combina duas magias diferentes
+Não é permitido repetir a mesma magia no combo
+O custo do combo é:
+(mana da magia 1 + mana da magia 2) − 5
+O dano causado é maior do que ataques isolados
+Isso incentiva criatividade e gerenciamento de recursos durante o combate.
 
-🏅 Ranks Disponíveis
+---
 
-Cada rank determina:
+## 🐉 Inimigos Dinâmicos
+Existem 4 inimigos principais, cada um com variações de:
+Vida
+Dano (com range aleatório)
+Dificuldade
+O jogo garante:
+😌 inimigos simples no início
+⚔️ Inimigos moderados nos ranks médios
+💀 Chefe final apenas no rank máximo
+Assim, nenhuma batalha fica impossível ou injusta.
 
-Pontos para comprar magias
+---
 
-Vida inicial
+## 🛠️ Tecnologias & Conceitos Utilizados
+O projeto foi criado usando somente conceitos iniciais de Swift:
+Variáveis simples (String, Int, Bool)
+Arrays
+Funções tradicionais
+Condicionais (if, else)
+Loops (while)
+Menus com switch
+Entrada via readLine()
+Int.random() para valores aleatórios
+Strings multilinha (""")
+Sem classes, structs ou módulos avançados — seguindo exatamente o pedido do desafio.
 
-Magias desbloqueadas
+---
 
-Rank	Pontos	Vida	Dificuldade
-Aprendiz de Mago	20 pts	60 HP	Fácil
-Mago Iniciante	40 pts	80 HP	Fácil
-Feiticeiro	60 pts	100 HP	Médio
-Feiticeiro Experiente	80 pts	120 HP	Difícil
-Mestre dos Magos	120 pts	150 HP	Muito fácil
-🔥 Magias Desbloqueadas por Rank
-🌱 Aprendiz de Mago
+## ▶️ Como Executar o Projeto
+Abra o Xcode ou qualquer editor compatível com Swift
+Crie um arquivo main.swift ou use um Playground
+Cole o código completo do projeto
+Execute o programa
+Escolha o nome do seu mago e comece sua aventura!
+Não é necessário configurar nada além disso.
 
-Bola de Fumaça — 5 pts
+--- 
 
-Faísca — 10 pts
+## 🧠 Aprendizados
+Criar este projeto me ajudou a consolidar conceitos importantes:
+Estruturar um sistema de batalha usando apenas funções
+Criar menus interativos com switch
+Trabalhar com arrays como bases de dados
+Gerenciar entrada de usuário via console
+Balancear inimigos e progressão
+Pensar em lógica de jogo com recursos limitados
+Organizar código de forma clara e modular
+Um exercício excelente para reforçar os fundamentos da linguagem.
 
-📘 Mago Iniciante
+---
 
-(inclui anteriores)
-
-Raio Mágico — 20 pts
-
-🔮 Feiticeiro
-
-(inclui anteriores)
-
-Chamas Espirais — 30 pts
-
-Orbe Arcano — 40 pts
-
-⚡ Feiticeiro Experiente
-
-(inclui anteriores)
-
-Tempestade Arcana — 60 pts
-
-🌌 Mestre dos Magos
-
-(inclui anteriores)
-
-Explosão Cósmica — 80 pts
-
-Rasgo Dimensional — 100 pts
-
-⚔️ Sistema de Batalha
-
-A batalha final serve como teste da build escolhida pelo jogador.
-
-Você e o inimigo jogam turnos alternados
-
-Cada magia causa dano igual ao seu custo
-
-O inimigo sempre causa 12 de dano por turno
-
-Se a vida de alguém chegar a 0 → fim da batalha
-
-🗺️ Fluxo do Jogo
-
-Jogador digita o nome do mago
-
-Escolhe um rank
-
-Recebe pontos para comprar magias
-
-Seleciona quantas magias quiser até gastar tudo
-
-Entra em um mini-cenário
-
-Enfrenta o Goblin Arcano
+## 🎓 Sobre
+Projeto desenvolvido como parte do desafio técnico da:
+Apple Developer Academy | SENAC Santo Amaro
+Autor: Guilherme Alves de Souza
