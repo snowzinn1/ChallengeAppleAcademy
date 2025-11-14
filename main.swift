@@ -43,12 +43,12 @@ let ranks = ["Aprendiz de Mago", "Mago Iniciante", "Feiticeiro", "Feiticeiro Exp
 
 // Magias: (nome, dano, mana) - ordem = desbloqueio por rank
 let magiasBanco: [(String, Int, Int)] = [
-    ("Raio Mágico", 20, 15),         // nível baixo
-    ("Toque Arcano", 12, 6),         // segunda magia para Aprendiz
-    ("Orbe Arcano", 35, 25),         // rank 1
-    ("Lança Congelante", 50, 35),    // rank 2
-    ("Tempestade de Mana", 75, 50),  // rank 3
-    ("Explosão Arcana Final", 120, 70) // rank 4 (opcional extra)
+    ("Raio Mágico ⚡️", 20, 15),         // nível baixo
+    ("Toque Arcano 🪄", 12, 6),         // segunda magia para Aprendiz
+    ("Orbe Arcano 🔮", 35, 25),         // rank 1
+    ("Lança Congelante ❄️", 50, 35),    // rank 2
+    ("Tempestade de Mana ⛈️", 75, 50),  // rank 3
+    ("Explosão Arcana Final 💥", 120, 70) // rank 4 (opcional extra)
 ]
 
 // Vida e mana por rank (mesma ordem de 'ranks')
