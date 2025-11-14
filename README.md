@@ -3,7 +3,7 @@ Bem-vindo ao meu pequeno mundo mágico criado inteiramente no console usando Swi
 Este projeto foi desenvolvido para o processo seletivo da Apple Developer Academy | SENAC, seguindo a regra de utilizar apenas conceitos iniciais da linguagem.
 A ideia aqui foi transformar fundamentos simples em algo interativo e divertido — e daí nasceu este mini RPG de magos.
 
-# 🔮 Academia de Magia
+# 🔮 Academia Arcana
 
 ## ✨ Sobre o Projeto
 Você controla um mago que começa sua jornada como Aprendiz e evolui através de batalhas contra inimigos cada vez mais fortes.
