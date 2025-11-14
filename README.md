@@ -1,29 +1,31 @@
-Desafio Apple Developer Academy - Academia de Magia - RPG em Swift
+Desafio Apple Developer Academy - RPG em Swift
 Bem-vindo ao meu pequeno mundo mágico criado inteiramente no console usando Swift!
 Este projeto foi desenvolvido para o processo seletivo da Apple Developer Academy | SENAC, seguindo a regra de utilizar apenas conceitos iniciais da linguagem.
 A ideia aqui foi transformar fundamentos simples em algo interativo e divertido — e daí nasceu este mini RPG de magos.
 
-# ✨ Sobre o Projeto
+# 🔮 Academia de Magia
+
+## ✨ Sobre o Projeto
 Você controla um mago que começa sua jornada como Aprendiz e evolui através de batalhas contra inimigos cada vez mais fortes.
 Durante a aventura, você pode:
-🧙‍♂️ Escolher o nome do seu mago
-📈 Subir de rank vencendo batalhas
-🔓 Desbloquear novas magias
-💥 Fazer combos entre habilidades
-🐉 Enfrentar inimigos únicos que evoluem com você
-⭐ Encarar o chefe final quando alcançar o título de Mestre dos Magos
+- 🧙‍♂️ Escolher o nome do seu mago
+- 📈 Subir de rank vencendo batalhas
+- 🔓 Desbloquear novas magias
+- 💥 Fazer combos entre habilidades
+- 🐉 Enfrentar inimigos únicos que evoluem com você
+- ⭐ Encarar o chefe final quando alcançar o título de Mestre dos Magos
 Tudo acontece direto no console utilizando readLine() para interação.
 
 ---
 
 ## 🧙 Evolução do Mago
 A progressão é um dos pontos principais do jogo. Seus ranks são:
-Aprendiz de Mago
-Mago Iniciante
-Feiticeiro
-Feiticeiro Experiente
-Mestre dos Magos ⭐ (final do jogo)
-Cada vitória aumenta seu rank, vida, mana e desbloqueia novas magias exclusivas.
+- Aprendiz de Mago
+- Mago Iniciante
+- Feiticeiro
+- Feiticeiro Experiente
+- Mestre dos Magos ⭐ (final do jogo)
+- Cada vitória aumenta seu rank, vida, mana e desbloqueia novas magias exclusivas.
 
 ---
 
@@ -45,25 +47,25 @@ Vida
 Dano (com range aleatório)
 Dificuldade
 O jogo garante:
-😌 inimigos simples no início
-⚔️ Inimigos moderados nos ranks médios
-💀 Chefe final apenas no rank máximo
+- 😌 inimigos simples no início
+- ⚔️ Inimigos moderados nos ranks médios
+- 💀 Chefe final apenas no rank máximo
 Assim, nenhuma batalha fica impossível ou injusta.
 
 ---
 
 ## 🛠️ Tecnologias & Conceitos Utilizados
 O projeto foi criado usando somente conceitos iniciais de Swift:
-Variáveis simples (String, Int, Bool)
-Arrays
-Funções tradicionais
-Condicionais (if, else)
-Loops (while)
-Menus com switch
-Entrada via readLine()
-Int.random() para valores aleatórios
-Strings multilinha (""")
-Sem classes, structs ou módulos avançados — seguindo exatamente o pedido do desafio.
+- Variáveis simples (String, Int, Bool)
+- Arrays
+- Funções tradicionais
+- Condicionais (if, else)
+- Loops (while)
+- Menus com switch
+- Entrada via readLine()
+- Int.random() para valores aleatórios
+- Strings multilinha (""")
+- Sem classes, structs ou módulos avançados — seguindo exatamente o pedido do desafio.
 
 ---
 
@@ -79,14 +81,14 @@ Não é necessário configurar nada além disso.
 
 ## 🧠 Aprendizados
 Criar este projeto me ajudou a consolidar conceitos importantes:
-Estruturar um sistema de batalha usando apenas funções
-Criar menus interativos com switch
-Trabalhar com arrays como bases de dados
-Gerenciar entrada de usuário via console
-Balancear inimigos e progressão
-Pensar em lógica de jogo com recursos limitados
-Organizar código de forma clara e modular
-Um exercício excelente para reforçar os fundamentos da linguagem.
+- Estruturar um sistema de batalha usando apenas funções
+- Criar menus interativos com switch
+- Trabalhar com arrays como bases de dados
+- Gerenciar entrada de usuário via console
+- Balancear inimigos e progressão
+- Pensar em lógica de jogo com recursos limitados
+- Organizar código de forma clara e modular
+- Um exercício excelente para reforçar os fundamentos da linguagem.
 
 ---
 
